@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <title data-i18n="timeline_page_title">خط الزمن - مكتبة الأهداف الصغيرة</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+<header>
+    <div class="header-main">
+        <div>
+            <h1 data-i18n="timeline_title">خط الزمن</h1>
+            <p data-i18n="timeline_subtitle">هنا تشوف تاريخ إنجازاتك الصغيرة، يوم بعد يوم.</p>
+        </div>
+        <button id="langToggle" class="lang-toggle" type="button">EN</button>
+    </div>
+    <nav>
+        <a href="index.html" data-i18n="nav_home">الرئيسية</a>
+        <a href="goals.html" data-i18n="nav_goals">أهدافي</a>
+        <a href="timeline.html" class="active" data-i18n="nav_timeline">خط الزمن</a>
+        <a href="tips.html" data-i18n="nav_tips">نصائح</a>
+    </nav>
+</header>
+
+<main>
+    <section class="timeline-intro">
+        <h2 data-i18n="timeline_how_title">كيف تستخدم خط الزمن؟</h2>
+        <p data-i18n="timeline_how_text">
+            لما تنجز هدف من صفحة <strong>أهدافي</strong> وتعلّم إنه منجز،
+            يضاف تلقائيًا لخط الزمن مع تاريخ ووقت الإنجاز.
+        </p>
+    </section>
+
+    <section class="timeline">
+        <h2 data-i18n="timeline_list_title">إنجازاتي</h2>
+        <div id="timelineContainer">
+            <!-- يُعبأ بالجافاسكربت -->
+        </div>
+        <p class="note" data-i18n="timeline_note_empty">إذا ما ظهرت إنجازات، جرّب انك تنجز هدف من صفحة "أهدافي" أولاً. 💪</p>
+    </section>
+</main>
+
+<footer>
+    <p data-i18n="footer_timeline">كل نقطة على خط الزمن = خطوة حقيقية سويتها 👣</p>
+</footer>
+</body>
+</html>
